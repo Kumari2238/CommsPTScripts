@@ -23,7 +23,7 @@
         <SystemSampler guiclass="SystemSamplerGui" testclass="SystemSampler" testname="Audio Call">
           <boolProp name="SystemSampler.checkReturnCode">false</boolProp>
           <stringProp name="SystemSampler.expectedReturnCode">0</stringProp>
-          <stringProp name="SystemSampler.command">cmd</stringProp>
+          <stringProp name="SystemSampler.command">/usr/local/bin/run_livekit.sh</stringProp>
           <elementProp name="SystemSampler.arguments" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="Argument">
@@ -116,7 +116,7 @@
           <elementProp name="SystemSampler.environment" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="SystemSampler.directory">C:\Users\ck3144\Downloads\livekit-cli_1.5.1_windows_amd64</stringProp>
+          <stringProp name="SystemSampler.directory">/usr/local/bin</stringProp>
         </SystemSampler>
         <hashTree/>
         <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer">
